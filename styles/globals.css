@@ -3,3 +3,10 @@
 @tailwind utilities;
 
 
+/* TO DO: Use Tailwaind */
+
+body {
+  background-color: black;
+  font-family: sans-serif;
+  color: white;
+}
