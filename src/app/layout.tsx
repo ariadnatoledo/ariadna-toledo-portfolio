@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Sidebar from "@/components/Sidebar";
 import "../../styles/globals.css";
+import NavBar from "@/components/NavBar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,9 +29,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="grid grid-cols-12 gap-6 px-5 lg:px-48 my-14">
-          <div className="col-span-12 p-4 text-center bg-white lg:col-span-3 rounded-2xl"><Sidebar /></div>
-          <div className="col-span-12 bg-white lg:col-span-9 rounded-2xl">
+        <div className="grid grid-cols-12 gap-6 px-5 lg:px-48 my-14 sm:px-20 md:px-32">
+          <div className="col-span-12 p-4 text-center bg-gradient-to-r from-slate-500 to-blue-400 lg:col-span-3 rounded-2xl">
+            <Sidebar />
+          </div>
+          <div className="col-span-12 bg-gradient-to-r from-slate-500 to-blue-400 lg:col-span-9 rounded-2xl flex flex-col">
+            <NavBar />
             {children}
           </div>
         </div>
