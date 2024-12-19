@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div>projects page</div>
+    <div className="px-5">projects page</div>
   )
 }
 

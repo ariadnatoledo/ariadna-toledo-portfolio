@@ -14,7 +14,7 @@ interface NavItemProps {
 const NavItem = ({ activeItem, name, route, setActiveItem }: NavItemProps) => {
   return activeItem !== name ? (
     <Link href={route}>
-      <span onClick={() => setActiveItem(name)}>{name}</span>
+      <span onClick={() => setActiveItem(name)} className="hover:text-rose-600">{name}</span>
     </Link>
   ) : null;
 };
@@ -30,9 +30,9 @@ function NavBar() {
   }, [pathname]);
 
   return (
-    <div>
-      <span className="font-bold text-rose-900">{activeItem}</span>
-      <div className="text-rose-900 font-lg flex space-x-3">
+    <div className="flex justify-between px-5 py-3 my-3">
+      <span className="font-bold text-rose-900 text-xl border-b-4 border-rose-800 md:text-2xl">{activeItem}</span>
+      <div className="text-lg flex space-x-5">
         <NavItem
           activeItem={activeItem}
           setActiveItem={setActiveItem}

@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div>Resume Page</div>
+    <div className="px-5">Resume Page</div>
   )
 }
 
