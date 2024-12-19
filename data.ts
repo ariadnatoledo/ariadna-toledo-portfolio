@@ -1,4 +1,5 @@
 import { IService } from "./type";
+import { ISkill } from "./type";
 
 export const services:IService[] = [
   {
@@ -22,3 +23,10 @@ export const services:IService[] = [
    
   },
 ];
+
+export const languages:ISkill[] = [
+  {
+name: "React",
+level: "90%"
+  },
+]
