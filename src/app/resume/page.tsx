@@ -1,4 +1,5 @@
 import { languages } from "../../../data";
+import { tools } from "../../../data";
 import { BsCircleFill } from "react-icons/bs";
 import Bar from "@/components/Bar";
 
@@ -50,6 +51,14 @@ function resumePage() {
           <div className="my-2">
           {languages.map((language) => (
               <Bar data={language} key={language.name} />
+            ))}
+          </div>
+        </div>
+        <div>
+          <h5 className="my-3 text-2xl font-bold">Tools & Softwares</h5>
+          <div className="my-2">
+          {tools.map((tool) => (
+              <Bar data={tool} key={tool.name} />
             ))}
           </div>
         </div>
