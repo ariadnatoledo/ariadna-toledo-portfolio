@@ -1,5 +1,6 @@
 import { IService } from "./type";
 import { ISkill } from "./type";
+import { IProject } from "./type";
 
 export const services: IService[] = [
   {
@@ -70,5 +71,48 @@ export const tools: ISkill[] = [
   {
     name: "Figma",
     level: "70%",
+  },
+];
+
+export const projects: IProject[] = [
+  {
+    name: "Vinilo app",
+    description:
+      "A full-stack social media platform for vinyl collectors to share their collections, connect with other enthusiasts through live messaging, and discover vinyl-related events and shows.",
+    image_path: "/images/Demo_vinilo_mobile.png",
+    deployed_url: "https://github.com/ariadnatoledo/ariadna-toledo-vinilo-capstone",
+    GitHub_url: "https://github.com/ariadnatoledo/ariadna-toledo-vinilo-capstone",
+    category: ["react", "node", "express", "MySQL"],
+    key_techs: ["React", "MySQL", "Git", "Material UI", "Socket.IO", "Multer"],
+  },
+  {
+    name: "INFRA",
+    description:
+      "Meta Challenge: How might we help Meta users adapt to AI innovations? Our team developed the Meta AI Button, an innovative educational tool designed to guide users in understanding the potential of AI in their personal and professional lives. The solution empowers users to explore AI's capabilities and benefits, fostering better adaptation to AI-driven advancements.",
+    image_path: "/images/hackaton-infra-modal.png", 
+    deployed_url: "https://github.com/ariadnatoledo/infra-industry-partner-hackathon",
+    GitHub_url: "https://github.com/ariadnatoledo/infra-industry-partner-hackathon",
+    category: ["react"],
+    key_techs: ["React"],
+  },
+  {
+    name: "In Stock",
+    description:
+      "InStock is a web application developed, designed to help businesses manage their inventory efficiently. The platform enables users to track stock levels, update inventory, and generate reports. With an intuitive interface and real-time updates, InStock streamlines inventory management, ensuring businesses stay organized and responsive to demand.",
+    image_path: "/images/dashing-doves-instock.png", 
+    deployed_url: "https://github.com/ariadnatoledo/dashing-doves-instock",
+    GitHub_url: "https://github.com/ariadnatoledo/dashing-doves-instock",
+    category: ["react", "MySQL", "express"],
+    key_techs: ["React", "MySQL", "Git", "Express"],
+  },
+  {
+    name: "Ariadna Toledo's Portfolio",
+    description:
+      "Welcome to my portfolio, featuring projects built with cutting-edge technologies and programming languages. Explore my work in full-stack development, data-driven apps, and innovative solutions focused on scalability and user experience.",
+    image_path: "/images/dashing-doves-instock.png", 
+    deployed_url: "https://github.com/ariadnatoledo/ariadna-toledo-portfolio",
+    GitHub_url: "https://github.com/ariadnatoledo/ariadna-toledo-portfolio",
+    category: ["Next.js", "TypeScript"],
+    key_techs: ["Next.js", "TypeScript", "Tailwind"],
   },
 ];
