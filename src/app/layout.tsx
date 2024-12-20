@@ -25,15 +25,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" >
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      > 
         <div className="grid grid-cols-12 gap-6 px-5 lg:px-48 my-14 sm:px-20 md:px-32">
-          <div className="col-span-12 p-4 text-center bg-gradient-to-r from-slate-500 to-blue-400 lg:col-span-3 rounded-2xl">
+          <div className="col-span-12 p-4 text-center lg:col-span-3 rounded-2xl">
             <Sidebar />
           </div>
-          <div className="col-span-12 bg-gradient-to-r from-slate-500 to-blue-400 lg:col-span-9 rounded-2xl flex flex-col">
+          <div className="col-span-12 lg:col-span-9 rounded-2xl flex flex-col">
             <NavBar />
             {children}
           </div>

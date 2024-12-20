@@ -6,7 +6,11 @@
 /* TO DO: Use Tailwaind */
 
 body {
-  background-color: #374151;
+  background: linear-gradient(to right, black, #0d3361); /* Black to blue-400 */
+
   font-family: sans-serif;
   color: #354358;
 }
+
+
+

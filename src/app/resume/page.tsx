@@ -1,13 +1,7 @@
 import { languages } from "../../../data";
 import { tools } from "../../../data";
-import { BsCircleFill } from "react-icons/bs";
 import Bar from "@/components/Bar";
 
-const skillIcons = [
-  {
-    Icon: BsCircleFill,
-  },
-];
 
 function resumePage() {
   return (
