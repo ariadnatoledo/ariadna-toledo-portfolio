@@ -11,8 +11,8 @@ function Sidebar() {
       <img
         src="/ari-headshot.jpg"
         alt="user avatar"
-        className="w-32 h-32 rounded-full mx-auto"
-      />
+        className="w-32 h-32 rounded-full mx-auto object-cover"
+              />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-inconsolata">
         <span className="text-slate-700">Ariadna Toledo</span>
       </h3>
