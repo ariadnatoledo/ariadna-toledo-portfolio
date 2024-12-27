@@ -30,11 +30,11 @@ function ProjectsPage() {
         active={active}
       />
 
-      <div className="grid grid-cols-12 gap-4 my-3 relative">
+      <div className="relative grid grid-cols-12 gap-4 my-3">
         {projects.map((project) => (
           <div
             key={project.name}
-            className="col-span-12 sm:col-span-6 lg:col-span-6 p-2 bg-gray-200 rounded-lg"
+            className="col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-6"
           >
             <ProjectCard project={project} />
           </div>
