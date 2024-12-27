@@ -19,8 +19,8 @@ export const services: IService[] = [
       "I develop robust RESTful APIs that enable smooth communication between systems, using <b>Node API</b> to support scalability and integration.",
   },
   {
-    title: "UX/UI Designer",
-    about: "Stunning user interface designr using <b>Figma</b>.",
+    title: "Critical Thinking",
+    about: "The ability to analyze complex problems, structure effective solutions, adapt quickly to challenges, and foster innovative ideas through teamwork and strategic decision-making.",
   },
 ];
 
@@ -80,7 +80,7 @@ export const projects: IProject[] = [
     description:
       "A full-stack social media platform for vinyl collectors to share their collections, connect with other enthusiasts through live messaging, and discover vinyl-related events and shows.",
     image_path: "/images/Demo_vinilo_mobile.png",
-    deployed_url: "https://github.com/ariadnatoledo/ariadna-toledo-vinilo-capstone",
+    deployed_url: "https://www.linkedin.com/feed/update/urn:li:activity:7274453294343675905/",
     GitHub_url: "https://github.com/ariadnatoledo/ariadna-toledo-vinilo-capstone",
     category: ["react", "node", "express", "MySQL"],
     key_techs: ["React", "MySQL", "Git", "Material UI", "Socket.IO", "Multer"],
