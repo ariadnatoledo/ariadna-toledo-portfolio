@@ -37,10 +37,10 @@ const ProjectCard: FunctionComponent<{
         className="cursor-pointer"
         onClick={() => setShowDetail(true)}
       /> */}
-      <p className="my-2 text-center">{name}</p>
+      <p className="my-2 text-center text-black">{name}</p>
 
       {showDetail && (
-        <div className="grid md:grid-cols-2 absolute top-0 left-0 z-10 h-auto w-full gap-x-12 text-black bg-gray-100 p-2">
+        <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12">
           <div>
             {/* <img src={image_path} alt={name} /> */}
 
@@ -69,7 +69,7 @@ const ProjectCard: FunctionComponent<{
 
             <button
               onClick={() => setShowDetail(false)}
-              className="absolute p-1 rounded-full top-3 right-3 focus:outline-none bg-gray-200"
+              className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none"
             >
               <MdClose size={30} />
             </button>

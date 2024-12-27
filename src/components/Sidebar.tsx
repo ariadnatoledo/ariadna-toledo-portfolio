@@ -14,7 +14,7 @@ function Sidebar() {
 
       {/* Download Resume Button */}
       <a
-        className="bg-gradient-to-r from-slate-500 to-blue-400 border-2 border-black w-8/12 text-white py-2 rounded-full flex items-center justify-center"
+        className="flex items-center justify-center w-8/12 py-2 my-2 text-white border-2 border-black rounded-full bg-gradient-to-r from-slate-500 to-blue-400"
         href="https://docs.google.com/document/d/13KFWhQZJEii5ENYqAweasJhoqJ0z8PUFtrQVUtArFZg/edit?usp=sharing"
         download="ariadna_toledo_resume"
       >
@@ -22,7 +22,7 @@ function Sidebar() {
       </a>
 
       {/* Social Links */}
-      <div className="flex justify-evenly my-5 text-white w-9/12 md:w-full mx-auto">
+      <div className="flex w-9/12 mx-auto my-5 text-white justify-evenly md:w-full">
         <a href="https://github.com/ariadnatoledo">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
@@ -32,7 +32,7 @@ function Sidebar() {
       </div>
 
       {/* Location and Contact */}
-      <div className="my-5 py-4" style={{ marginLeft: '-1rem', marginRight: '-1rem' }}>
+      <div className="py-4 my-5" style={{ marginLeft: '-1rem', marginRight: '-1rem' }}>
         <div className="flex items-center justify-center space-x-2">
           <GoLocation />
           <span>Montreal, Quebec</span>
@@ -43,7 +43,7 @@ function Sidebar() {
 
       {/* Email Me Button */}
       <button
-        className="bg-gradient-to-r from-slate-500 to-blue-400 border-2 border-black w-8/12 rounded-full py-2 px-5 text-white my-2"
+        className="flex items-center justify-center w-8/12 py-2 my-2 text-white border-2 border-black rounded-full bg-gradient-to-r from-slate-500 to-blue-400"
         onClick={() => (window.location.href = 'mailto:ariadnatoledo1@gmail.com')}
       >
         Email Me

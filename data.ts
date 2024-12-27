@@ -109,7 +109,7 @@ export const projects: IProject[] = [
     name: "Ariadna Toledo's Portfolio",
     description:
       "Welcome to my portfolio, featuring projects built with cutting-edge technologies and programming languages. Explore my work in full-stack development, data-driven apps, and innovative solutions focused on scalability and user experience.",
-    image_path: "/images/dashing-doves-instock.png", 
+    image_path: "/images/portfolio-ari.png", 
     deployed_url: "https://github.com/ariadnatoledo/ariadna-toledo-portfolio",
     GitHub_url: "https://github.com/ariadnatoledo/ariadna-toledo-portfolio",
     category: ["Next.js", "TypeScript"],
