@@ -6,10 +6,8 @@
 /* TO DO: Use Tailwaind */
 
 body {
-  background: linear-gradient(to right, black, #0d3361); /* Black to blue-400 */
-
-  font-family: sans-serif;
-  color: #354358;
+  background-image: linear-gradient(to right, #0b040c, #2a1925, #4b2838, #703846, #954a4f, #a25461, #ae5e74, #9b76a1);    
+  color: white;
 }
 
 
